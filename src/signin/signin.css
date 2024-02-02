@@ -1,0 +1,23 @@
+/* Add this to your existing CSS */
+
+/* ***********************************Logo******************************** */
+.logo-container {
+    position: relative;
+}
+
+.logo-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, transparent 10%, white 100%);
+    z-index: 1;
+    transform-origin: top bottom;
+    transform: skewY(90deg);
+}
+
+.logo-container svg {
+    z-index: 2;
+}
