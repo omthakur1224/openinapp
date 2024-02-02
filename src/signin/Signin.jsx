@@ -14,7 +14,7 @@ export default function Signin() {
   const responseGoogle = (response) => {
     console.log(response,'response');
     if(response.accessToken.length){
-      navigate('/dashboard')
+      navigate('/upload')
     }else{
       alert('authentication failed')
     }
