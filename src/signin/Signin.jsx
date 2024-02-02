@@ -7,7 +7,7 @@ import { gapi } from "gapi-script";
 
 export default function Signin() {
   
-  const client_Id="957011269643-6ove4uveqsf7ipmoiar5vvlvu9tj8sis.apps.googleusercontent.com";
+  const client_Id="957011269643-9o0uksidpkjqbp2i56cjmska6hppal5a.apps.googleusercontent.com";
 
   const navigate=useNavigate();
 
